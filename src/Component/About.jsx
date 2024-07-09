@@ -16,8 +16,8 @@ function About() {
             Eduction & Training
         </h3>
         <span>
-            [Degree/cretification],[Instition],[Year],[Degree/cretification],
-            [Instition],[Year],[Relevant Course],[Platfome/Instition],[Year]
+            [Bachelor of Arts],[Gujarat univarsity],[2021],[Shree mati s.r. mehta art college],
+            {/* [Instition],[Year],[Relevant Course],[Platfome/Instition],[Year] */}
         </span>
         <br/>
         <br/>
@@ -25,8 +25,8 @@ function About() {
             Skill & Expertise
         </h3>
         <span>
-            [Degree/cretification],[Instition],[Year],[Degree/cretification],
-            [Instition],[Year],[Relevant Course],[Platfome/Instition],[Year]
+            [Frontend developer],[Tops technologies],[2024],[cretification],
+            [Html,Css,Javascript],[Reactjs,Bootstrap,Jquery],
         </span>
         <br/>
         <br/>
@@ -34,8 +34,8 @@ function About() {
             Professional Experience
         </h3>
         <span>
-            [Degree/cretification],[Instition],[Year],[Degree/cretification],
-            [Instition],[Year],[Relevant Course],[Platfome/Instition],[Year]
+            [-],[-],[-],[-],
+           
         </span>
         <br/>
         <br/>
@@ -43,8 +43,8 @@ function About() {
             Achivements &  Awards
         </h3>
         <span>
-            [Degree/cretification],[Instition],[Year],[Degree/cretification],
-            [Instition],[Year],[Relevant Course],[Platfome/Instition],[Year]
+            [-],[-],[-],[-],
+            
         </span>
         <br/>
         <br/>
@@ -52,8 +52,8 @@ function About() {
             Mission Statment
         </h3>
         <span>
-            [Degree/cretification],[Instition],[Year],[Degree/cretification],
-            [Instition],[Year],[Relevant Course],[Platfome/Instition],[Year]
+            [-],[-],[-],[-],
+           
         </span>
     </div>
 

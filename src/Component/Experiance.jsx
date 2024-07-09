@@ -59,7 +59,7 @@ function Portfolio() {
               {
                 cardItem.map(({id,logo,name})=>(
                   <div 
-                  className=' mb-4  flex flex-col items-center justify-center border-[2px] md:w-[200px] md:h[200px]   rounded-full   p-1 cursor-pointer hover:scale-110 duration-300' 
+                  className=' mb-4  flex flex-col items-center justify-center  md:w-[200px] md:h[200px]   rounded-full   p-1 cursor-pointer hover:scale-110 duration-300' 
                    key={id}>
                        <img src={logo} className=' w-[150px]  rounded-full ' alt="comming soon👍" />
                        <div>

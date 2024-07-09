@@ -5,6 +5,9 @@ import js from "../assets/js.png";
 import react from "../assets/react.png";
 import jquery from "../assets/jquery.png";
 
+import { Link } from 'react-scroll';
+
+
 
 function Portfolio() {
   const cardItem=[
@@ -54,7 +57,7 @@ function Portfolio() {
                        </div>
                        <div className=' space-x-3'>
                         <button className=' bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded'>Video</button>
-                        <button className=' bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded'>Source Code</button>
+                        <button type='submit' className=' bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded'><Link to={"https://github.com/surajgaud199/html"}>Source Code</Link></button>
                        </div>
                   </div>
                 ))

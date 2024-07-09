@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Photo from "../assets/images.jpeg";
+import Photo from "../assets/photo-2.svg";
 
 
 import { FaFacebookSquare } from "react-icons/fa";
@@ -50,37 +50,57 @@ function Home() {
                     <h2 className=' font-bold'>Available on</h2>
                       <ul className=' flex space-x-5'>
                          <li>
-                            <a href='https://www.facebook.com/login/' target= '_blank'> 
-                            <FaFacebookSquare className=' text-2xl cursor-pointer'/>
-                            </a>
+                              <a href='https://www.facebook.com/login/' target= '_blank'> 
+                                <FaFacebookSquare className=' text-2xl cursor-pointer'/>
+                              </a>
                             </li>
-                         <li>
-                            <a href='https://www.linkedin.com/login' target='_blank'>
-                            <FaLinkedin className=' text-2xl cursor-pointer' />
-                            </a>
+                            <li>
+                               <a href='https://www.linkedin.com/login' target='_blank'>
+                                 <FaLinkedin className=' text-2xl cursor-pointer' />
+                              </a>
                             </li>
-                         <li>
-                            <a href='https://www.instagram.com/accounts/login/?hl=en' target='_blank'>
-                            <FaInstagramSquare className=' text-2xl cursor-pointer' />
-                            </a>
+                            <li>
+                              <a href='https://www.instagram.com/accounts/login/?hl=en' target='_blank'>
+                                <FaInstagramSquare className=' text-2xl cursor-pointer' />
+                             </a>
                             </li>
-                         <li>
-                            <a href='https://www.google.com/' target='_blank'>
-                            <FaGoogle className=' text-2xl cursor-pointer' />
-                            </a>
+                            <li>
+                               <a href='https://www.google.com/' target='_blank'>
+                                 <FaGoogle className=' text-2xl cursor-pointer' />
+                              </a>
                             </li>
                       </ul>
                 </div>
                 <div className=' space-y-2'>
                 <h2 className=' font-bold'>Currently working on</h2>
-                      <div className=' flex space-x-5'>
-                        <IoLogoHtml5 className=' text- xl: md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
-                        <IoLogoCss3 className=' text- xl: md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
-                        <IoLogoJavascript className='  text- xl: md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
-                        <FaReact className='  text- xl: md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
-                        <SiJquery className=' text- xl: md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
+                      <ul className=' flex space-x-5'>
+                        <li>
+                           <a href='https://github.com/surajgaud199/html' target='_black'>
+                             <IoLogoHtml5 className=' text- xl: md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
+                           </a>
+                        </li>
+                        <li>
+                           <a href='https://github.com/surajgaud199/CSS' target='_black'>
+                             <IoLogoCss3 className=' text- xl: md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
+                           </a>
+                        </li>
+                        <li>
+                           <a href='https://github.com/surajgaud199/ad-javascript' target='_black'> 
+                             <IoLogoJavascript className='  text- xl: md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
+                           </a>
+                        </li>
+                        <li>
+                           <a href='https://github.com/surajgaud199/REACT-JS-PROJECT' target='_black'> 
+                              <FaReact className='  text- xl: md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
+                           </a>
+                        </li>
+                        <li>
+                           <a href='https://github.com/surajgaud199/jquery' target='_black'> 
+                              <SiJquery className=' text- xl: md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
+                           </a>
+                        </li>
 
-                      </div> 
+                      </ul> 
                 </div>
                 </div>
            </div>
